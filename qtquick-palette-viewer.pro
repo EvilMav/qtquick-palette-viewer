@@ -31,7 +31,8 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 DISTFILES += \
     LICENSE \
-    README.md
+    README.md \
+    media/kde_breeze_dark.png
 
 RESOURCES += \
     src/qml.qrc
